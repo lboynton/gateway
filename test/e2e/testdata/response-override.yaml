@@ -43,7 +43,7 @@ spec:
         contentType: text/plain
         body:
           type: Inline
-          inline: "%RESPONSE_CODE% Oops! Your request is not found. %LOCAL_REPLY_BODY%"
+          inline: "%RESPONSE_CODE% Oops! Your request is not found. -- %LOCAL_REPLY_BODY%"
     - match:
         statusCodes:
           - type: Value
